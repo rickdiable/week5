@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Microsoft JhengHei";
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 920px;
+  padding: 60px 0px;
+  margin: 120px auto 100px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 12px;
+}
+.top-content .addTicket-img img {
+  margin-bottom: 21px;
+}
+.top-content .addTicket-form, .top-content .addTicket-img {
+  width: 38%;
+}
+@media (max-width: 768px) {
+  .top-content .addTicket-form, .top-content .addTicket-img {
+    width: 90%;
+  }
+}
+.top-content .addTicket-form {
+  display: flex;
+  flex-direction: column;
+}
+.top-content .addTicket-form .title {
+  color: #00807E;
+  padding-bottom: 4px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 36px;
+  border-bottom: 3px solid #00807E;
+}
+.top-content .addTicket-form i {
+  margin-right: 6px;
+}
+.top-content .addTicket-form .form-group:not(:last-child) {
+  margin-bottom: 24px;
+}
+.top-content .addTicket-form .form-group .addTicket-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-content .addTicket-form .form-group .addTicket-input input[type=text i] {
+  padding: 0px;
+}
+.top-content .addTicket-form .form-group label {
+  color: #00807E;
+  line-height: 22px;
+}
+.top-content .addTicket-form .form-group input, .top-content .addTicket-form .form-group select, .top-content .addTicket-form .form-group textarea {
+  width: 72%;
+  background: #FAFAFA;
+  color: #818A91;
+  font-size: 16px;
+  line-height: 22px;
+  min-height: 38px;
+  text-indent: 0.5rem;
+  border-width: 0px;
+  border-bottom: 1px solid #818A91;
+}
+.top-content .addTicket-form .form-group textarea {
+  padding-top: 8px;
+  min-height: 111px;
+}
+.top-content .addTicket-form .addTicket-btn {
+  align-self: flex-end;
+}
+.top-content .addTicket-form .btn {
+  color: #FFFFFF;
+  background: #00807E;
+  line-height: 25px;
+  padding: 10px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.top-content .addTicket-form .btn:hover {
+  background-color: #64C3BF;
+}/*# sourceMappingURL=all.css.map */
