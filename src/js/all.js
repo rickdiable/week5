@@ -1,3 +1,4 @@
+// data
 let data = [
   {
     id: 0,
@@ -38,7 +39,7 @@ let data = [
 
 let filterData = [];
 
-//DOM
+// DOM
 const ticketName = document.querySelector('#ticketName');
 const ticketImgUrl = document.querySelector('#ticketImgUrl');
 const ticketRegion = document.querySelector('#ticketRegion');
@@ -52,6 +53,7 @@ const addBtn = document.querySelector('.addTicket-btn');
 const searchResult = document.querySelector('.search-result');
 const filterRegion = document.querySelector('#filterRegion');
 
+// function
 function render(data){
   let str = "";
   let formatPrice = 0;
