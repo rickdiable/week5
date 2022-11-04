@@ -52,9 +52,15 @@ const cardGroup = document.querySelector('.card-group');
 const addBtn = document.querySelector('.addTicket-btn');
 const searchResult = document.querySelector('.search-result');
 const filterRegion = document.querySelector('#filterRegion');
+const noData = document.querySelector('.no-data');
 
 // function
 function render(data){
+  if(data.length == 0){
+    noData.classList.remove('d-none');
+  }else{
+    noData.classList.add('d-none');
+  }
   let str = "";
   let formatPrice = 0;
   searchResult.textContent = `本次搜尋共 ${data.length} 筆資料`;

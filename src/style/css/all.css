@@ -82,6 +82,10 @@ body {
   position: relative;
 }
 
+.d-none {
+  display: none;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -326,4 +330,11 @@ body {
   color: #00807E;
   margin-right: 4px;
   line-height: 43px;
+}
+.footer .no-data p {
+  color: #00807E;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 38px;
 }/*# sourceMappingURL=all.css.map */
